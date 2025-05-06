@@ -801,6 +801,18 @@ section,
   background-color: #0056b3;
 }
 
+/* Navigation Sidebar */
+.navbar {
+  position: fixed; 
+  z-index: 1000; /* Higher than the button */
+}
+
+/* Download Button Container */
+.download-btn-container {
+  position: relative; 
+  z-index: 500; /* Lower than the nav bar */
+}
+
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
